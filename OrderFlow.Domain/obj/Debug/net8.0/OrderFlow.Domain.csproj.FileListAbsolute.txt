@@ -1,0 +1,11 @@
+C:\Dev\Projeto-OrderFlowTwo\OrderFlow.Domain\bin\Debug\net8.0\OrderFlow.Domain.deps.json
+C:\Dev\Projeto-OrderFlowTwo\OrderFlow.Domain\bin\Debug\net8.0\OrderFlow.Domain.dll
+C:\Dev\Projeto-OrderFlowTwo\OrderFlow.Domain\bin\Debug\net8.0\OrderFlow.Domain.pdb
+C:\Dev\Projeto-OrderFlowTwo\OrderFlow.Domain\obj\Debug\net8.0\OrderFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Projeto-OrderFlowTwo\OrderFlow.Domain\obj\Debug\net8.0\OrderFlow.Domain.AssemblyInfoInputs.cache
+C:\Dev\Projeto-OrderFlowTwo\OrderFlow.Domain\obj\Debug\net8.0\OrderFlow.Domain.AssemblyInfo.cs
+C:\Dev\Projeto-OrderFlowTwo\OrderFlow.Domain\obj\Debug\net8.0\OrderFlow.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Projeto-OrderFlowTwo\OrderFlow.Domain\obj\Debug\net8.0\OrderFlow.Domain.dll
+C:\Dev\Projeto-OrderFlowTwo\OrderFlow.Domain\obj\Debug\net8.0\refint\OrderFlow.Domain.dll
+C:\Dev\Projeto-OrderFlowTwo\OrderFlow.Domain\obj\Debug\net8.0\OrderFlow.Domain.pdb
+C:\Dev\Projeto-OrderFlowTwo\OrderFlow.Domain\obj\Debug\net8.0\ref\OrderFlow.Domain.dll
