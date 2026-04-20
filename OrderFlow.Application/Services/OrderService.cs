@@ -2,6 +2,7 @@ using OrderFlow.Domain.Entities;
 using OrderFlow.Application.DTOs;
 using OrderFlow.Application.Interfaces;
 using OrderFlow.Domain.Interfaces;
+using OrderFlow.Domain.Queries;
 
 namespace OrderFlow.Application.Services;
 
@@ -33,6 +34,23 @@ public class OrderService : IOrderService
         }
 
         await this._orderRepository.Add(order);
+    }
+
+    public async Task<List<OrdersDto>> GetAll()
+    {
+        var orders = await this._orderRepository.GetAll();
+
+        return orders.Select(x => new OrdersDto
+        {
+            NumeroDaCompra = x.NumeroDaCompra,
+            Id = x.Id,
+            NomeUser = x.NomeUser,
+            NomeProduct = x.NomeProduct,
+            Price = x.Price,
+            Quantity = x.Quantity,
+            Stock = x.Stock,
+            Status = x.Status
+        }).ToList();
     }
 
     public async Task Pay(Guid orderId)

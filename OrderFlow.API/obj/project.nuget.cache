@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mqFoAy1sDic=",
+  "dgSpecHash": "kv1kioe7qCs=",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Projeto-OrderFlowTwo\\OrderFlow.API\\OrderFlow.API.csproj",
+  "projectFilePath": "C:\\Dev\\Project-OrderFlow_Csharp\\OrderFlow.API\\OrderFlow.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eduar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\eduar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -24,6 +24,14 @@ public class OrderController : ControllerBase
         return Ok();
     }
 
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        var orders = await this._service.GetAll();
+
+        return Ok(orders);
+    }
+
     [HttpPost("{id}/pay")]
     public async Task<IActionResult> Pay(Guid id)
     {

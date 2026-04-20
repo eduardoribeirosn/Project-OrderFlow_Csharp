@@ -10,6 +10,13 @@
                 <router-link to="/products">Produtos</router-link>
                 <router-link to="/orders">Pedidos</router-link>
             </nav>
+
+            <h3>Cadastrar</h3>
+            <nav>
+                <router-link to="/usersPost">Usuários</router-link>
+                <router-link to="/productsPost">Produtos</router-link>
+                <router-link to="/ordersPost">Pedidos</router-link>
+            </nav>
         </aside>
 
         <main class="content">
